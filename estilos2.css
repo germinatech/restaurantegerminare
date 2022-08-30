@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body, html{
+    margin: 0;
+    height: 100%;
+   
+}
+
+ul, li{
+    list-style: none;
+}
+
+header{
+    top: 0;
+    min-height: 10vh;
+    background-image: linear-gradient(to right, #263c58,#032c06d7 );
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+header a{
+    color: #fff;
+    text-decoration:none ; 
+}
+
+header img{
+    margin-bottom: 0;
+    padding: 0;
+    display: block; 
+    width: 68px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu li{
+    margin-left: 10px;
+    display: block;
+    padding: 10px;
+    background-color: #f52804; 
+
+}
+
+.menu li:hover{
+    background-color: #a8a5a5;
+ 
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+article > p{
+    font-family: sans-serif;
+    width: 50vw;
+    margin: 0 auto;
+    text-align: justify;
+    text-indent: 1.2em;
+}
+
+#titulo{
+    text-align: center;
+    margin: 10px;
+}
+
+article{
+    text-align: center;
+    padding: 0 ;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+main{
+    width: 55vw;
+    margin: auto;
+}
+
+
+.fotos{
+    margin: 10px 0 ;
+    text-align: center;
+}
+
+.fotos > div{
+    background-color: rgba(3, 139, 3, 0.103);
+    margin: 10px auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fotos > div > img{
+    width: 50%;
+}
+
+.fotos > div > p{
+    width: 50%;
+    margin: 10px;
+    font-family: cursive;
+
+    
+}
+h3{
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgb(0, 77, 0);
+}
+
+h4{
+    color: rgb(0, 77, 0);
+    font-size: 20px;
+    margin: 10px 0;
+    background-color: rgba(0, 90, 56, 0.13);
+}
+
+#centro{
+    display: flex;    
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px auto;
+}
+
+#centro > div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px; 
+    padding: 5px;
+    margin: 0 55px;
+}
+
+
+#centro p{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    margin: 0;
+    color: rgb(0, 77, 0);
+}
+
+.container {
+    display: flex;  
+}
+
+.cleft{
+    width: 15%;
+    margin: 10px 0 0 30px;
+}
+
+.cleft img{
+    width: 25%;
+}
+
+.cardapio{
+    width: 70%;
+}
+.cright{
+    width: 15%;
+    display: flex;
+}
+.social{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+li img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #2f4f4f;
+}
+
+footer a{
+    text-decoration: none;
+    color: yellow;
+    margin-left: 10px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 0.8em;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 0, 0.171);
+}
